@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar Chamados de Suporte</title>
+    <link rel="stylesheet" href="consulta.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Chamados de Suporte</h1>
+        <div class="buttons-container">
+            <button class="btn" onclick="listarChamados(true)">Mostrar Todos</button>
+            <button class="btn" onclick="listarChamados(false)">Mostrar Não Finalizados</button>
+        </div>
+        <div id="chamadosList" class="chamados-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
